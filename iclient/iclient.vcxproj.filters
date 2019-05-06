@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="learnc">
+      <UniqueIdentifier>{621dc036-b743-4cb2-b46a-8bec87be7ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="design">
+      <UniqueIdentifier>{05354b98-c02c-416e-9bca-b0ed6af4b32d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="learnc\002_datatype.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\001_helloworld.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\003_variable.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\004_keyword.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\005_compoundtype.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\006_const.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\007_constexpr.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\008_typedef.cpp">
+      <Filter>learnc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

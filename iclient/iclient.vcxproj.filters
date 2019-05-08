@@ -7,31 +7,52 @@
     <Filter Include="design">
       <UniqueIdentifier>{05354b98-c02c-416e-9bca-b0ed6af4b32d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="learnc\01_变量和基本类型">
+      <UniqueIdentifier>{842b1987-4339-4a0c-a3be-2a77663406ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnc\02_字符串向量数组">
+      <UniqueIdentifier>{3cb47397-6cbf-48d4-8a39-43e7a828c6e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="learnc\002_datatype.cpp">
-      <Filter>learnc</Filter>
+    <ClCompile Include="learnc\011_struct.cpp">
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\001_helloworld.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\002_datatype.cpp">
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\003_variable.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\004_keyword.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\005_compoundtype.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\006_const.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\007_constexpr.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
     </ClCompile>
     <ClCompile Include="learnc\008_typedef.cpp">
-      <Filter>learnc</Filter>
+      <Filter>learnc\01_变量和基本类型</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\009_auto.cpp">
+      <Filter>learnc\01_变量和基本类型</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\010_decltype.cpp">
+      <Filter>learnc\01_变量和基本类型</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\012_string.cpp">
+      <Filter>learnc\02_字符串向量数组</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\013_vector.cpp">
+      <Filter>learnc\02_字符串向量数组</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

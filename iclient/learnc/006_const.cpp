@@ -51,6 +51,17 @@ void test_top_low_const() {
 	const int &r = ci; // 用于声明引用的const都是底层const
 
 
+	// 如果希望推断出的auto类型是一个等顶层const ，则需要明确指出
+	const  auto f = ci; // ci的推演类型是int，f是const int
+
+	// 还可以将引用类型设置为auto ,此时原来的初始化规则任然使用
+	auto &g = ci; // g是一个整型常量引用，绑定到ci
+
+	//auto &h = 42; //err 不能为非常量引用绑定字面值
+	
+	const auto &j = 42; // 可以为常量引用绑定字面值
+
+
 
 
 }

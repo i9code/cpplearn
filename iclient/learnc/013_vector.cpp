@@ -59,7 +59,7 @@ void test_iter() {
 		else {
 			++iit;
 		}
-		// 这里 iit有可能已经等于v.end()
+		// 这里 iit有可能已经等于v.end() 访问 *iit 越界
 	} 
 
 }

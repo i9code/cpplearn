@@ -13,6 +13,9 @@
     <Filter Include="learnc\02_字符串向量数组">
       <UniqueIdentifier>{3cb47397-6cbf-48d4-8a39-43e7a828c6e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="learnc\03_表达式">
+      <UniqueIdentifier>{0e700b3c-9b2d-4cea-9235-864ab4e4934a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="learnc\011_struct.cpp">
@@ -53,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="learnc\013_vector.cpp">
       <Filter>learnc\02_字符串向量数组</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\014_array.cpp">
+      <Filter>learnc\02_字符串向量数组</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\015_c_string.cpp">
+      <Filter>learnc\02_字符串向量数组</Filter>
+    </ClCompile>
+    <ClCompile Include="learnc\016_operator.cpp">
+      <Filter>learnc\03_表达式</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
